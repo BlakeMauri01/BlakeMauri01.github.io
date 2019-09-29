@@ -1,0 +1,37 @@
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    /*font-family: sans-serif;*/
+    color: black;
+    font-family: 'Heebo', sans-serif;
+}
+
+section img{
+    width: 400px;
+}
+section h1 {
+    font-size: 2.5rem;
+    color: grey;
+    border-bottom: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+section h2 {
+    font-size: 2.0rem;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(63, 181, 208);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Heebo', sans-serif;
+}
+
+header{
+    font-size: 20px;
+    border-top: 1px solid rgb(63, 181, 208);
+    border-bottom: 1px solid  rgb(63, 181, 208);
+    color: whitesmoke;
+    background-color: rgb(63, 181, 208);
+}

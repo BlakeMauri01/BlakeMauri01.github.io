@@ -1,19 +1,22 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
     color: black;
+    font-family: 'Heebo', sans-serif;
 }
 
 h1 {
     font-size: 2.5rem;
     color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
     font-size: 2.0rem;
     text-align: center;
-    border-bottom: 1px solid grey
+    border-bottom: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, main, footer {
@@ -28,13 +31,12 @@ header, footer, footer a {
 }
 
 header img {
-    width: 25%;
-    height: 35%;
-    float: right;
+    width: 200px;
 }
 
 footer {
     font-size: smaller;
+    font-family: 'Heebo', sans-serif;
 }
 
 ul {

@@ -1,0 +1,48 @@
+@media only screen and (min-width: 32.5em){
+    body { 
+        font-size: 16px; 
+        line-height: 32px;
+        /*font-family: sans-serif;*/
+        color: black;
+        font-family: 'Heebo', sans-serif;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        color: whitesmoke;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    h2 {
+        font-size: 2.0rem;
+        text-align: center;
+        border-bottom: 1px solid grey;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header, main, footer {
+        margin: 1.25rem auto;
+        padding: .5rem;
+        max-width: 800px;
+    }
+    header, footer, footer a {
+        text-align: center;
+        background-color: rgb(63, 181, 208);
+        color: whitesmoke;
+    }
+    
+    header img {
+        width: 200px;
+        float: right;
+    }
+    
+    footer {
+        font-size: smaller;
+    }
+    
+    ul {
+        margin: 0 auto;
+        max-width: 300px;
+        font-family: 'Heebo', sans-serif;
+    }
+}
