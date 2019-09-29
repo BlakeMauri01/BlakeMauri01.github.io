@@ -12,13 +12,13 @@ section img{
 section h1 {
     font-size: 2.5rem;
     color: grey;
-    text-align: center;
     border-bottom: 1px solid grey;
     font-family: 'Roboto', sans-serif;
 }
 
 section h2 {
     font-size: 2.0rem;
+    text-align: center;
     color: whitesmoke;
     background-color: rgb(63, 181, 208);
     font-family: 'Roboto', sans-serif;
