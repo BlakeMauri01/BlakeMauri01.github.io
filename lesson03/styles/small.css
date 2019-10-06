@@ -33,7 +33,7 @@ section img {
 
 ul{
     display: flex;
-    flex-direction: row; /*make collumn for small media query*/
+    flex-direction: column;
     justify-content: space-around;
     background-color:  rgb(63, 181, 208);
     border-radius: 30px;
