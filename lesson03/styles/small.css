@@ -51,3 +51,12 @@ footer {
 section p{
     font-family: 'Heebo', sans-serif;
 }
+
+h3{
+    font-size: 1.3rem;
+    /*margin: 100px 10px 100px 10px;*/
+    color: grey;
+    border-bottom: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
