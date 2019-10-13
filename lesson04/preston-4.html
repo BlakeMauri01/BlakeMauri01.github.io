@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Normalizes css styles to work properly on multiple broswers-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    
+</head>
+
+<body>
+    
+    <header>
+            <h1><img src="images/colorlogo.png" alt="logo">Idaho Inclement</h1>
+            <h2>The Gem State Forecast</h2>
+    </header>
+    <nav>
+         <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#"class="active">Preston</a></li>
+            <li><a href="#" class="active">Soda Springs</a></li>
+            <li><a href="#" class="active">Fish Haven</a></li>
+            <li><a href="#" class="active">Storm Center</a></li>
+            <li><a href="#" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h3>Preston</h3>
+        </section>
+        <section>
+            <h4>Hero image/Daily forecast</h4>
+        </section>
+        <section>
+            <h4>Article</h4>
+        </section>
+        <section>
+            <h4>Map</h4>
+        </section>
+    </main>
+    <footer>
+            <p>&copy; <span id="currentDate"></span> Blake Mauri <a href="http://www.byui.edu" target="_blank">BYU-Idaho</a></p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
