@@ -97,6 +97,14 @@ h4 {
     color: #DFE0E2;
 }
 
+.navigation a:hover {
+	color: #344441;
+	background-color: #98DFEA;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+
 section p{
     font-family: 'Heebo', sans-serif;
 }

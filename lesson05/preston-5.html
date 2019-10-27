@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Normalizes css styles to work properly on multiple broswers-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body>
+    <header>
+        <section id="header">
+            <img src="images/colorlogo.png" alt="logo">
+            <div>
+                <h1>Idaho Inclement</h1>
+                <h2>The Gem State Forecast</h2>
+            </div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="preston-5.html" class="active">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#" class="active">Soda Springs</a></li>
+            <li><a href="#" class="active">Fish Haven</a></li>
+            <li><a href="#" class="active">Storm Center</a></li>
+            <li><a href="#" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h3>Preston</h3>
+        </section>
+        <img src="images/preston.jpg" alt="preston">
+        <section id="forecast">
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th id="day1"></th>
+                    <th id="day2"></th>
+                    <th id="day3"></th>
+                    <th id="day4"></th>
+                    <th id="day5"></th>
+                </tr>
+                <tr>
+                    <td id = title>Forecast</td>
+                    <td id="temp1">&deg;34</td>
+                    <td id="temp2">&deg;40</td>
+                    <td id="temp3">&deg;37</td>
+                    <td id="temp4">&deg;28</td>
+                    <td id="temp5">&deg;25</td>
+                </tr>
+            </table>
+        </section>
+        <section id="article">
+            <h4>Top News</h4>
+            <img src="images/prestonfire.png" alt="preston article">
+            <p> PRESTON, ID. – Fire crews in Franklin County spent Monday morning battling a small brush fire west of
+                Preston, Idaho that destroyed 10 acres.
+                Crews were called to an agriculture field about a mile and a half west of Preston near Highway 36
+                shortly before 11AM, according to Franklin County Fire Marshall Matt Gleed.
+                Gleed said the owner of the property was hauling hay into a nearby field to feed his cattle when he
+                noticed the smoke and called fire dispatch.
+                It took crews 15 minutes to bring the flames under control and several hours to extinguish the hot
+                spots.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentDate"></span> Blake Mauri <a href="http://www.byui.edu" target="_blank">BYU-Idaho</a>
+        </p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.9948717232637!2d-111.78557588449705!3d43.814465779116055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c38ef412!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1571956287034!5m2!1sen!2sus"
+            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

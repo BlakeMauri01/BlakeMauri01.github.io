@@ -1,0 +1,155 @@
+.active {
+    font-family: 'Heebo', sans-serif;
+    color: #DFE0E2;
+}
+
+footer {
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    background-color: #40798C;
+    color: #DFE0E2;
+    border-radius: 10px;
+}
+
+iframe{
+    width: 200px;
+    padding: 3%;
+}
+
+ header img {
+    width: 120px;
+    padding: -2% 2%;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #DFE0E2;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 18px;
+    color: #DFE0E2;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: -20px;
+    margin-bottom: auto;
+    max-width: 100%;
+}
+
+h3 {
+    font-size: 40px;
+    color: #344441;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h4 {
+    font-size: 20px;
+    color:  #DFE0E2;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #40798C;
+
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+    color: #DFE0E2;
+    font-family: 'Heebo', sans-serif;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: #344441;
+	background-color: #98DFEA;
+    font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+main img {
+    width: 95%;
+    padding: 3%;
+}
+
+section p{
+    font-family: 'Heebo', sans-serif;
+    color: #344441;
+    background-color: #DFE0E2;
+    opacity: .8;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #344441;
+}
+ 
+#forecast{
+    display: none;
+}
+
+body{
+    background-image: url('/lesson05/images/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,127 @@
+@media only screen and (min-width: 40.5em) {
+
+    .active {
+        font-family: 'Heebo', sans-serif;
+        color: whitesmoke;
+    }
+
+    footer {
+        font-size: 15px;
+        display: flex;
+        bottom: 0;
+        position: fixed;
+        font-family: 'Heebo', sans-serif;
+        justify-content: center;
+        width: 100%;
+        background-color: #40798C;
+        color: #344441;
+    }
+
+    iframe {
+        width: 10%;
+        padding: 2%;
+    }
+
+    header img {
+        width: 300px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    li a {
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        color: #DFE0E2;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 24%;
+        margin-bottom: 2%;
+    }
+
+    h2 {
+        font-size: 35px;
+        color: #DFE0E2;
+        text-align: center;
+        font-family: 'Heebo', sans-serif;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-bottom: auto;
+    }
+
+    h3 {
+        font-size: 30px;
+        color: grey;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 30px;
+        color: #DFE0E2;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: #DFE0E2;
+    }
+
+    .navigation a:hover {
+        color: #344441;
+        background-color: #98DFEA;
+        font-weight: 700;
+        border-radius: 30px;
+    }
+
+    section p {
+        font-family: 'Heebo', sans-serif;
+    }
+
+    table,
+    th,
+    td {
+        padding: 2%;
+        font-family: 'Roboto', sans-serif;
+        color: #344441;
+        font-size: 120%;
+
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        /*make collumn for small media query*/
+        justify-content: space-around;
+        background-color: rgb(108, 114, 117);
+        border-radius: 30px;
+        margin-top: 40px;
+    }
+
+    #forecast {
+        display: flex;
+    }
+}
