@@ -1,0 +1,220 @@
+.active {
+    font-family: 'Khula', sans-serif;
+    color: whitesmoke;
+}
+
+footer {
+    font-size: 12px;
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+    background-color: #74b1c2;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+header img {
+    width: 275px;
+    margin-bottom: -6%;
+    margin-top: -3%;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Khula', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Khula', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: -20px;
+    margin-bottom: auto;
+    max-width: 100%;
+}
+
+h3 {
+    font-size: 40px;
+    color: #344441;
+    font-family: 'Khula', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h4 {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Khula', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #74b1c2;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0pt;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: whitesmoke;
+    font-family: 'Khula', sans-serif;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #344441;
+    background-color: #98DFEA;
+    font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+    display: block;
+}
+
+.herodiv img {
+    width: 230pt;
+    padding: 3pt;
+}
+
+#article p {
+    font-family: 'Khula', sans-serif;
+    color: whitesmoke;
+    background-color: #74b1c2;
+    opacity: .8;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+#article img{
+    width: 230pt;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #74b1c2;
+}
+
+#forecast {
+    display: none;
+}
+
+body {
+    background-image: url('/lesson05/images/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.herodiv h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.herodiv h1,
+h2,
+p {
+    margin: 0;
+    font-family: 'Khula', sans-serif;
+    color: whitesmoke;
+    opacity: none;
+}
+
+.stats {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    background-color: #74b1c2;
+    border-radius: 10px;
+    padding: 1.0rem;
+    opacity: .8;
+}
+
+#news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5pt;
+}
+
+#news img{
+    width: 200pt;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5pt;
+}
+
+iframe{
+    width: 200pt;
+}
+
+#gallery{
+    display: grid;
+    /* Adds columns the more frs added the more columns */
+    /* The number in front of the fr determines equidistent column width */
+    grid-template-columns: 1fr;
+}
