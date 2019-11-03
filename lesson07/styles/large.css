@@ -1,7 +1,6 @@
-@media only screen and (min-width: 40.5em) {
-
+@media only screen and (min-width: 50.5em) {
     .active {
-        font-family: 'Heebo', sans-serif;
+        font-family: 'Khula', sans-serif;
         color: whitesmoke;
     }
 
@@ -9,21 +8,24 @@
         font-size: 15px;
         display: flex;
         bottom: 0;
-        position: fixed;
-        font-family: 'Heebo', sans-serif;
+        font-family: 'Khula', sans-serif;
         justify-content: center;
         width: 100%;
-        background-color: #40798C;
+        background-color: #74b1c2
+;
         color: #344441;
-    }
-
-    iframe {
-        width: 10%;
-        padding: 2%;
+        opacity: .8;
     }
 
     header img {
-        width: 300px;
+        width: 400px;
+        margin-bottom: -48pt;
+        margin-top: -30pt;
+    }
+
+    #header{
+        display: flex;
+        justify-content: flex-start;
     }
 
     li {
@@ -38,39 +40,11 @@
         font-size: 60px;
         text-align: center;
         color: #DFE0E2;
-        font-family: 'Khula', sans-serif;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 24%;
-        margin-bottom: 2%;
-    }
-
-    h2 {
-        font-size: 35px;
-        color: #DFE0E2;
-        text-align: center;
-        font-family: 'Heebo', sans-serif;
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
-        margin-bottom: auto;
-    }
-
-    h3 {
-        font-size: 30px;
-        color: grey;
-        font-family: 'Khula', sans-serif;
-        text-align: center;
-    }
-
-    h4 {
-        font-size: 30px;
-        color: #DFE0E2;
-        font-family: 'Khula', sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        margin-bottom: 3%;
     }
 
     .navigation {
@@ -95,20 +69,7 @@
         background-color: #98DFEA;
         font-weight: 700;
         border-radius: 30px;
-    }
-
-    section p {
-        font-family: 'Heebo', sans-serif;
-    }
-
-    table,
-    th,
-    td {
-        padding: 2%;
-        font-family: 'Khula', sans-serif;
-        color: #344441;
-        font-size: 120%;
-
+        opacity: .8;
     }
 
     ul {
@@ -116,12 +77,18 @@
         flex-direction: row;
         /*make collumn for small media query*/
         justify-content: space-around;
-        background-color: rgb(108, 114, 117);
-        border-radius: 30px;
+        background-color: #74b1c2;
+        /* border-radius: 30px; */
         margin-top: 40px;
     }
-
-    #forecast {
-        display: flex;
+    #gallery{
+        /* Adds columns the more frs added the more columns */
+        /* The number in front of the fr determines equidistent column width */
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    #gallery img{
+        width: 300px;
+        height: 300px;
     }
 }
