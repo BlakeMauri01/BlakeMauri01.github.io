@@ -64,10 +64,14 @@
     }
 
     h3 {
-        font-size: 30px;
-        color:  #DFE0E2;
-        font-family: 'Khula', sans-serif;
-        text-align: center;
+            font-size: 40px;
+            color: #344441;
+            font-family: 'Khula', sans-serif;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-top: 10px;
+            margin-bottom: auto;
     }
 
     h4 {
@@ -176,14 +180,21 @@
         padding: 1.5rem;
         opacity: .8;
     }
+    #news img{
+        width: 600pt;
+    }
+    #article p{
+        font-size: 20pt;
+    }
 
-    #contact{
+    #map{
     display: flex; 
     align-items: center;
     justify-content: center;
     }
 
     iframe{
-        width: 300pt;
+        height: 250pt;
+        width: 450pt;
     }
 }

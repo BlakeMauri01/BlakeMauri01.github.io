@@ -36,27 +36,24 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
-    color: whitesmoke;
-    text-align: center;
-    font-family: 'Khula', sans-serif;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-top: -20px;
-    margin-bottom: auto;
-    max-width: 100%;
-}
-
-h3 {
-    font-size: 40px;
+    font-size: 23px;
     color: #344441;
     font-family: 'Khula', sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+h3 {
+    font-size: 20px;
+    color: #344441;
+    font-family: 'Khula', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #344441;
 }
 
 h4 {
@@ -201,13 +198,21 @@ p {
     width: 200pt;
 }
 
-#contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5pt;
+.contact h2, p{
+    color: #344441;
 }
 
+.contact img{
+    width: 20pt;
+    padding: 2pt;
+}
+
+#map{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    }
+    
 iframe{
     width: 200pt;
 }
