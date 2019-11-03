@@ -24,6 +24,11 @@ header img {
     align-items: left;
 }
 
+.heroimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h1 {
     font-size: 30px;
     text-align: center;
@@ -113,11 +118,6 @@ nav {
   */
 .responsive li {
     display: block;
-}
-
-.herodiv img {
-    width: 230pt;
-    padding: 3pt;
 }
 
 #article p {

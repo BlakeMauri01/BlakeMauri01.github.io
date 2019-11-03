@@ -38,7 +38,6 @@
     </nav>
     <main>
         <div class="herodiv">
-            <img src="images/heroimage.jpeg" alt="preston">
             <section class="stats">
                 <h1>Preston</h1>
                 <p>Currenty: <span id="weather">Partly Cloudy</span</p> <p>High: <span id="currentTemp"></span></p>
@@ -46,6 +45,11 @@
                 <p>Wind Speed: <span id="windSpeed"></span></p>
             </section>
         </div>
+        <picture class = "heroimg">
+                <source class = "heroimg" srcset ="images/herolarge.png" media="(min-width: 800px)">
+                <source class = "heroimg" srcset ="images/heromedium.png" media="(min-width: 600px)">
+                    <img class = "heroimg" src ="images/herosmall.png" alt = "hero small">
+            </picture>
         <section id="forecast">
             <table>
                 <thead>
