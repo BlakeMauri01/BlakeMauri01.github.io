@@ -37,14 +37,7 @@
     }
 
     h1 {
-        font-size: 60px;
-        text-align: center;
-        color: #DFE0E2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 24%;
-        margin-bottom: 3%;
+        font-size: 70px;
     }
 
     .navigation {
@@ -81,14 +74,14 @@
         /* border-radius: 30px; */
         margin-top: 40px;
     }
-    #gallery{
-        /* Adds columns the more frs added the more columns */
-        /* The number in front of the fr determines equidistent column width */
-        grid-template-columns: 1fr 1fr 1fr;
+    form{
+        font-size: 20pt;
     }
-    
-    #gallery img{
+    main p{
+        font-size: 60pt;
+    }
+
+    label{
         width: 300px;
-        height: 300px;
     }
 }

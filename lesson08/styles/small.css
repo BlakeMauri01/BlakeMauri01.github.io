@@ -98,27 +98,24 @@ body {
     background-size: cover;
 }
 
-
-#gallery{
-    display: grid;
-    /* Adds columns the more frs added the more columns */
-    /* The number in front of the fr determines equidistent column width */
-    justify-content: space-evenly;
+form {
     font-family: 'Khula', sans-serif;
-}
-
-#gallery img{
-    width: 300px;
-    height: 300px;
-}
-
-#gallery img:hover{
-    box-shadow: 20px 20px 50px 10px grey;
-}
-
-#gallery figcaption{
-    padding: 10px 15px;
     background: #74b1c2;
     opacity: .8;
+    font-size: 12pt;
+}
 
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+main p {
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30pt;
+    background: #74b1c2;
+    opacity: .8;
 }

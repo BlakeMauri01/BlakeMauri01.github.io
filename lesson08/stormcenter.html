@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Normalizes css styles to work properly on multiple broswers-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Khula:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body>
+    <header>
+        <section id="header">
+            <img src="images/logo.png" alt="logo">
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="https://blakemauri01.github.io/lesson06/preston-6.html" class="active">Preston</a></li>
+            <li><a href="#" class="active">Soda Springs</a></li>
+            <li><a href="#" class="active">Fish Haven</a></li>
+            <li class="active"><a href="#" class="active">Storm Center</a></li>
+            <li><a href="https://blakemauri01.github.io/lesson07/gallery.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <h1>Storm Center</h1>
+    <main>
+        <form action="thanks.html" method="GET">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" pattern="[A-Za-z ]{5,}" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="user@email.com">
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="zipCode">Zip Code:</label>
+                <input type="number" id="zipCode" name="zipCode" required>
+            </div>
+            <div>
+                <label for="stormDate">Storm Date:</label>
+                <input type="date" id="stormDate" name="stormDate">
+            </div>
+            <div>
+                <label for=Storm Sevrity> Storm Serverity:</label>
+                <input type="range" id="stormServerity" name="stormServerity" min="1">
+            </div>
+            <div>
+                <label for="stormRegion"> Storm Region:</label>
+                <select name="stormRegion" id="stormRegion">
+                    <option value="selectRegion" selected disabled>Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="fishHaven">Fish Haven</option>
+                    <option value="sugarCity">Sugar City</option>
+                </select>
+                </label>
+            </div>
+            <div>
+                <label for="stormType">Storm Type:</label>
+                <input list="stormType">
+                <datalist id="stormType">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+            </div>
+            <span>Are you in Danger?</span>
+            <div>
+                <input id="yes" name="danger" type="radio" value="yes">
+                <label for="yes">Yes</label>
+            </div>
+            <div>
+                <input id="maybe" name="danger" type="radio" value="maybe">
+                <label for="maybe">Maybe</label></div>
+            <div>
+                <input id="no" name="danger" type="radio" value="no">
+                <label for="no">No</label></div>
+            </div>
+            <span>Comments:</span>
+            <div>
+                <label for="comments"></label>
+                <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentDate"></span> Blake Mauri <a href="http://www.byui.edu" target="_blank">BYU-Idaho</a>
+        </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
