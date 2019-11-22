@@ -104,10 +104,9 @@ body {
 }
 
 img {
-    width: 300px;
+    width: 250px;
     height: 265px;
     padding: 30px;
-    opacity: none;
 }
 div, h1, h2, footer{
     color: whitesmoke;
