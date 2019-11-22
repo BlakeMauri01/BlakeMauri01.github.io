@@ -104,10 +104,9 @@ body {
 }
 
 img {
-    width: 300px;
+    width: 200px;
     height: 265px;
-    padding: 30px;
-    opacity: none;
+    padding-top: 30px;
 }
 div, h1, h2, footer{
     color: whitesmoke;
@@ -118,6 +117,7 @@ div, h1, h2, footer{
     justify-content: center;
     align-items: center;
     background-color: #74b1c2;
+    opacity: .8;
     
 }
 
@@ -125,3 +125,4 @@ section {
     display: grid;
     grid-template-columns: 1fr;
 }
+

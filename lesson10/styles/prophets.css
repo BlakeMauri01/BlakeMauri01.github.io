@@ -1,0 +1,56 @@
+
+img {
+    width: 200px;
+    height: 265px;
+    padding-top: 30px;
+}
+div, h1, h2, footer{
+    padding: 3px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    background-color: lightblue;
+}
+
+h1, h2, label, span{
+    font-family: 'Khula', sans-serif;
+}
+
+h1{
+    margin: -10px;
+    background-color: lightgray;
+    font-size: 30px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+footer{
+    background-color: lightgray;
+}
+@media only screen and (min-width: 32.5em){
+    section{
+        grid-template-columns: 1fr 1fr;
+    }
+    h1{
+        margin: auto;
+        background-color: lightgray;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 60em){
+    section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    h1{
+        margin: -10px;
+        background-color: lightgray;
+        font-size: 50px;
+    }
+}
