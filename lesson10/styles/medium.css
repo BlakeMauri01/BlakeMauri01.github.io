@@ -18,6 +18,11 @@
         opacity: .8;
     }
 
+    iframe {
+        width: 10%;
+        padding: 2%;
+    }
+
     header img {
         width: 400px;
         margin-bottom: -48pt;
@@ -39,12 +44,43 @@
 
     h1 {
         font-size: 60px;
+        text-align: center;
         color: #DFE0E2;
-        background-color: #74b1c2;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 4%;
+        margin-top: 24%;
+        margin-bottom: 3%;
+    }
+
+    h2 {
+        font-size: 35px;
+        color: #DFE0E2;
+        text-align: center;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-bottom: auto;
+    }
+
+    h3 {
+            font-size: 40px;
+            color: #344441;
+            font-family: 'Khula', sans-serif;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-top: 10px;
+            margin-bottom: auto;
+    }
+
+    h4 {
+        font-size: 30px;
+        color: #DFE0E2;
+        font-family: 'Khula', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .navigation {
@@ -72,6 +108,35 @@
         opacity: .8;
     }
 
+    section p {
+        font-family: 'Khula', sans-serif;
+    }
+
+    table{
+        table-layout: fixed;
+    }
+    table,
+    th,
+    td {
+        font-family: 'Khula', sans-serif;
+        color: #344441;
+        font-size: 20pt;
+        /* padding: 15pt; */
+        text-align: center;
+    }
+
+    td{
+        background-color: #74b1c2;
+        opacity: .8;
+        width: 100pt;
+        height: 100pt;
+    }
+
+    th{
+        width: 100pt;
+        height: 100pt;
+    }
+
     ul {
         display: flex;
         flex-direction: row;
@@ -81,9 +146,55 @@
         /* border-radius: 30px; */
         margin-top: 40px;
     }
-
-    section{
-        grid-template-columns: 1fr 1fr;
+    
+    #forecast {
+        display: flex;
+        justify-content: center;
     }
 
+    .herodiv h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    .herodiv img {
+        width: 650pt;
+    }
+    
+    .herodiv h1,
+    h2,
+    p {
+        margin: 0;
+    }
+    
+    #herodiv p{
+        font-family: 'Khula', sans-serif;
+        color: #344441;
+    }
+    .stats {
+        position: absolute;
+        top: 35px;
+        left: 95px;
+        background-color: #74b1c2
+    ;
+        padding: 1.5rem;
+        opacity: .8;
+    }
+    #news img{
+        width: 600pt;
+    }
+    #article p{
+        font-size: 20pt;
+    }
+
+    #map{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    }
+
+    iframe{
+        height: 250pt;
+        width: 450pt;
+    }
 }
