@@ -1,0 +1,16 @@
+h1{
+    font-family: 'Khula', sans-serif;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px grey solid;
+}
+
+img{
+    display: grid;
+    justify-content: space-evenly;
+    padding: 10pt;
+}
+body{
+    background: lightskyblue;
+}

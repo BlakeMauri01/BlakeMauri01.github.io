@@ -12,12 +12,7 @@ footer {
     border-radius: 10px;
 }
 
-form{
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-header img{
+header img {
     width: 275px;
     margin-bottom: -6%;
     margin-top: -3%;
@@ -103,25 +98,24 @@ body {
     background-size: cover;
 }
 
-img {
-    width: 250px;
-    height: 265px;
-    padding: 30px;
-}
-div, h1, h2, footer{
-    color: whitesmoke;
+form {
     font-family: 'Khula', sans-serif;
-    padding: 3px;
-    margin: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #74b1c2;
-    
+    background: #74b1c2;
+    opacity: .8;
+    font-size: 12pt;
 }
 
-section {
-    display: grid;
-    grid-template-columns: 1fr;
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
 }
 
+main p {
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30pt;
+    background: #74b1c2;
+    opacity: .8;
+}

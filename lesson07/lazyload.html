@@ -1,91 +1,77 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
+ 
+
 <head>
-    <!--Normalizes css styles to work properly on multiple broswers-->
-    <link rel="stylesheet" href="styles/normalize.css">
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Weather Site</title>
+
+    <link rel="stylesheet" href="styles/lazyload.css">
     <link href="https://fonts.googleapis.com/css?family=Khula:300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+
+    <title>Document</title>
 
 </head>
 
+ 
+
 <body>
-    <header>
-        <section id="header">
-            <img src="images/logo.png" alt="logo">
-        </section>
-    </header>
-    <nav>
-        <ul class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="preston-6.html" class="active">Home</a></li>
-            <li><a href="#" class="active">Preston</a></li>
-            <li><a href="#" class="active">Soda Springs</a></li>
-            <li><a href="#" class="active">Fish Haven</a></li>
-            <li><a href="#" class="active">Storm Center</a></li>
-            <li><a href="#" class="active">Gallery</a></li>
-        </ul>
-    </nav>
+
     <main>
-        <section id = "gallery">
-            <figure>
-                <img src="" alt="Weather 1">
-                <figcaption>weather</figcaption>
-            </figure>
-            <figure>
-                <img src="" alt="Weather 2">
-                <figcaption>weather</figcaption>
-            </figure>
-            <figure>
-                <img src="" alt="Weather 3">
-                <figcaption>weather</figcaption>
-            </figure>
-            <figure>
-                <img src="" alt="Weather 4">
-                <figcaption>weather</figcaption>
-            </figure>
-            <figure>
-                <img src="" alt="Weather 5">
-                <figcaption>weather</figcaption>
-            </figure>
-            <figure>
-                <img src="" alt="Weather 6">
-                <figcaption>weather</figcaption>
-            </figure>
-            <figure>
-                <img src="" alt="Weather 7">
-                <figcaption>weather</figcaption>
-            </figure>
-            <figure>
-                <img src="" alt="Weather 8">
-                <figcaption>weather</figcaption>
-            </figure>
-            <figure>
-                    <img src="" alt="Weather 9">
-                    <figcaption>weather</figcaption>
-                </figure>
+
+        <h1>Lazy Load</h1>
+
+        <section class="pictures">
+
+            <picture>
+
+                <img src="images/300x400.png" data-src="http://placekitten.com/300/400" alt="kitten">
+
+            </picture>
+
+            <picture>
+
+                <img src="images/300x400.png" data-src="http://placekitten.com/301/401" alt="kitten">
+
+            </picture>
+
+            <picture>
+
+                <img src="images/300x400.png" data-src="http://placekitten.com/302/402" alt="kitten">
+
+            </picture>
+
+            <picture>
+
+                <img src="images/300x400.png" data-src="http://placekitten.com/303/403" alt="kitten">
+
+            </picture>
+
+            <picture>
+
+                <img src="images/300x400.png" data-src="http://placekitten.com/304/404" alt="kitten">
+
+            </picture>
+
+            <picture>
+
+                <img src="images/300x400.png" data-src="http://placekitten.com/305/405" alt="kitten">
+
+            </picture>
+
         </section>
-        <section id="contact">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2282.966280762197!2d-111.78582501016747!3d43.81433236470197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03e5bcae35%3A0xe134c040bf7e3394!2sScience%20and%20Technology%20Center!5e0!3m2!1sen!2sus!4v1572452319600!5m2!1sen!2sus"
-                frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </section>
+
     </main>
-    <footer>
-        <p>&copy; <span id="currentDate"></span> Blake Mauri <a href="http://www.byui.edu" target="_blank">BYU-Idaho</a>
-        </p>
-    </footer>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
+
+    <script src="scripts/lazyload.js"></script>
+
 </body>
+
 
 </html>

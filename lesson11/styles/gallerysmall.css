@@ -12,12 +12,7 @@ footer {
     border-radius: 10px;
 }
 
-form{
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-header img{
+header img {
     width: 275px;
     margin-bottom: -6%;
     margin-top: -3%;
@@ -103,25 +98,27 @@ body {
     background-size: cover;
 }
 
-img {
-    width: 250px;
-    height: 265px;
-    padding: 30px;
-}
-div, h1, h2, footer{
-    color: whitesmoke;
-    font-family: 'Khula', sans-serif;
-    padding: 3px;
-    margin: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #74b1c2;
-    
-}
 
-section {
+#gallery{
     display: grid;
-    grid-template-columns: 1fr;
+    /* Adds columns the more frs added the more columns */
+    /* The number in front of the fr determines equidistent column width */
+    justify-content: space-evenly;
+    font-family: 'Khula', sans-serif;
 }
 
+#gallery img{
+    width: 300px;
+    height: 300px;
+}
+
+#gallery img:hover{
+    box-shadow: 20px 20px 50px 10px grey;
+}
+
+#gallery figcaption{
+    padding: 10px 15px;
+    background: #74b1c2;
+    opacity: .8;
+
+}

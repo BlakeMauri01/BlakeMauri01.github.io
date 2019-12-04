@@ -17,8 +17,7 @@ fetch(requestURL)
                             let imageDiv = document.createElement('div');
                             let image = document.createElement('img');
 
-                            image.setAttribute('src', 'images/' + town.photo);
-                            image.className = '';
+                            image.setAttribute('src','images/', town.photo);
 
                             imageDiv.appendChild(image);
                             article.appendChild(imageDiv);
@@ -89,7 +88,7 @@ fetch(requestURL)
 
                             document.querySelector('section.towns').appendChild(article);
 
-                            // Events
+                            //Events
                             let eventsDiv = document.createElement('div');
                             let eventsLabel = document.createElement('label');
                             eventsLabel.textContent = 'Events: ';
