@@ -9,6 +9,9 @@ fetch(requestURL)
 
                     towns.forEach(
                         (town) => {
+                            //TEMP:
+                            console.log(town.photo);
+
                             if (town.name.toLowerCase() == "fish haven" || town.name.toLowerCase() == "preston" || town.name.toLowerCase() == "soda springs"){
                             let article = document.createElement('article');
                             let h2 = document.createElement('h2');
@@ -16,10 +19,11 @@ fetch(requestURL)
                             //Images
                             let imageDiv = document.createElement('div');
                             let image = document.createElement('img');
+                            image.className ='townImage';
 
-                            image.setAttribute('src','images/', town.photo);
-
+                            image.setAttribute('src','images/' + town.photo);
                             imageDiv.appendChild(image);
+
                             article.appendChild(imageDiv);
 
                             //Names
