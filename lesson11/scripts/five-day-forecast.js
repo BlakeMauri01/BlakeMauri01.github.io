@@ -11,6 +11,7 @@ function getFiveDayForecast(cityId) {
     ];
 
     // insert city id into api url
+    
     const apiForecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=9912e5970cae9f327e9077ffb4657b7c&units=imperial';
 
     fetch(apiForecastURL)
