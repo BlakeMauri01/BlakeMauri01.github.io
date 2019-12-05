@@ -56,7 +56,7 @@ currentDay = (currentDate.getDay())+1;
 for( i=1; currentDay <= 6; i++){
         var nameOfDay= daysOfWeek[currentDay++];
         var c = String(i);
-        document.getElementById("day"+ c).innerHTML = nameOfDay;
+        // document.getElementById("day"+ c).innerHTML = nameOfDay;
         days++;
     }
 var remainderDays = 5 - days;  
@@ -64,7 +64,7 @@ currentDay = 0;
 while (remainderDays > 0) {
     weekDay = daysOfWeek[currentDay]
     var c = String(++days);
-    document.getElementById("day"+ c).innerHTML = weekDay; 
+    // document.getElementById("day"+ c).innerHTML = weekDay; 
     currentDay++;
     remainderDays--;
 }

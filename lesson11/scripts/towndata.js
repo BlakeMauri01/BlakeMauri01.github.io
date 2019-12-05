@@ -99,6 +99,7 @@ fetch(requestURL)
 
                             let eventsSpan = document.createElement('span');
                             eventsSpan.textContent = town.events.join(', ');
+                            
 
                             eventsDiv.appendChild(eventsLabel);
                             eventsDiv.appendChild(eventsSpan);
