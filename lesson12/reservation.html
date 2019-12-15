@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Normalizes css styles to work properly on multiple broswers-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reservations</title>
+    <link href="https://fonts.googleapis.com/css?family=Khula:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <section id="header">
+            <img src="images/logo.png" alt="logo">
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="temple.html" class="active">Temples</a></li>
+            <li><a href="reservation.html" class="active">Reservation</a></li>
+            <li><a href="service.html" class="active">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Reservations</h1>
+    <main>
+        <form action="thanks.html" method="GET">
+            <div class="row">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" pattern="[A-Za-z ]{5,}" required>
+        </div>
+            <div  class="row">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="user@email.com">
+            </div>
+            <div  class="row">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div  class="row">
+                <label for="zipCode">Check-in Date</label>
+                <input type="date" id="checkInDate" name="checkInDate" required>
+            </div>
+            <div  class="row">
+                <label for="temple"> Temple:</label>
+                <select name="temple" id="temple">
+                    <option value="selectTemple" selected disabled>Select Temple</option>
+                    <option value="nauvooTemple">Nauvoo Temple</option>
+                    <option value="SLCTemple">Salt Lake City Temple</option>
+                    <option value="mesaTemple">Mesa Temple</option>
+                    <option value="rexburgTemple">Rexburg Temple</option>
+                </select>
+                </label>
+            </div>
+            <div class="row">
+                <label for="roomSize">Room size</label>
+                <input list="roomSize">
+                <datalist id="roomSize">
+                    <option value="One bed, one bath">
+                    <option value="Two bed, one bath">
+                    <option value="Three bed, two bath">
+                    <option value="Four bed, two bath">
+                    <option value="Five bed, three bath">
+                </datalist>
+            </div>
+            <span></span>
+            <span class="row">Special Accomidations/Comments:</span>
+            <div>
+                <label for="comments"></label>
+                <textarea name="comments" id="comments" cols="40" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentDate"></span> Blake Mauri <a href="http://www.byui.edu" target="_blank">BYU-Idaho</a>
+        </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+.active {
+    font-family: 'Khula', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer {
+    font-size: 12px;
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+    background-color: #7353BA;
+    color: whitesmoke;
+}
+
+header img {
+    width: 230px;
+    margin-bottom: -2%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.heroimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Khula', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+h3 {
+    color: whitesmoke;
+    font-family: 'Khula', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0pt;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: whitesmoke;
+    font-family: 'Khula', sans-serif;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: whitesmoke;
+    background-color: #2F195F;
+    font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+    display: block;
+}
+
+#article p {
+    font-family: 'Khula', sans-serif;
+    color: whitesmoke;
+    background-color: #7353BA;
+    opacity: .8;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+#article img{
+    width: 230pt;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #7353BA;
+}
+
+#forecast {
+    display: none;
+}
+
+body {
+    background-image: url('/lesson12/images/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.herodiv h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact h3, p{
+    color: whitesmoke;
+    font-family: 'Khula', sans-serif;
+}
+
+.contact img{
+    width: 20pt;
+    padding: 2pt;
+}
+
+#map{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    }
+    
+
+.temple img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.action{
+    display: block; 
+    height: 30px; 
+    width: 250px; 
+    background: #7353BA; 
+    color: #ffffff; 
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 100%; 
+    line-height: 35px; 
+    font-family: 'Khula', sans-serif;
+    border-radius: 20px; 
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.action a:hover {
+    display: block; 
+    height: 30px; 
+    width: 250px; 
+    color: whitesmoke;
+    background-color: #2F195F;
+    font-weight: 700;
+    border-radius: 20px;
+    opacity: .8;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Khula', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+form label, span {
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Khula', sans-serif;
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+input{
+    opacity: .8;
+    text-align: center;
+  }
+  
+.row{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+
+.missionary img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 2%;
+}

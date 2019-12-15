@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Normalizes css styles to work properly on multiple broswers-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Khula:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+    <header>
+        <section id="header">
+            <img src="images/logo.png" alt="logo">
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="temple.html" class="active">Temples</a></li>
+            <li><a href="reservation.html" class="active">Reservation</a></li>
+            <li><a href="service.html" class="active">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Contact</h1>
+    <h2>Please leave us some way to contact you! We welcome feed back and questions.</h2>
+    <main>
+        <form action="thanks.html" method="GET">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" pattern="[A-Za-z ]{5,}" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="user@email.com">
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+                <input type="submit">
+            </div>
+        </form>
+        <div class="contact">
+            <h3>Contact us</h3>
+            <p>Email: contactus@idi.com</p>
+            <p>Phone Number: 223-000-1010</p>
+            <img src="images/icon1.png" alt="instagram">
+            <img src="images/icon2.png" alt="twitter">
+            <img src="images/icon3.png" alt="facebook">
+            <h2>Business Location:</h2>
+        </div>
+        <section id ="map">                <iframe
+            src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370286!2d-77.09772048386598!3d38.9832559494822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576383441156!5m2!1sen!2sus"
+            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentDate"></span> Blake Mauri <a href="http://www.byui.edu" target="_blank">BYU-Idaho</a>
+        </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
