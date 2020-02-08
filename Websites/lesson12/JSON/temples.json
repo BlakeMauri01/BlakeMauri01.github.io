@@ -1,0 +1,70 @@
+{
+    "temples": [{
+            "TempleName": "Nauvoo Illinois Temple",
+            "TempleAddress": {
+                "City": "Nauvoo",
+                "State": "IL",
+                "Country": "US",
+                "Street": "50 N Wells St"
+            },
+            "Services": {
+                "ClothingRental": "Available",
+                "Cafeteria": "Not available",
+                "PatronHousing": "Not available",
+                "DistributionCenter": "Nearby"
+            },
+            "Telephone": "217-453-6252"
+        },
+
+        {
+            "TempleName": "Mesa Arizona Temple",
+            "TempleAddress": {
+                "City": "Mesa",
+                "State": "AZ",
+                "Country": "US",
+                "Street": "101 South LeSueur"
+            },
+            "Services": {
+                "ClothingRental": "Available",
+                "Cafeteria": "Available",
+                "PatronHousing": "Not available",
+                "DistributionCenter": "Nearby"
+            },
+            "Telephone": "480-833-1211"
+        },
+
+        {
+            "TempleName": "Salt Lake City Temple",
+            "TempleAddress": {
+                "City": "Salt Lake City",
+                "State": "UT",
+                "Country": "US",
+                "Street": "50 W North Temple St"
+            },
+            "Services": {
+                "ClothingRental": "Available",
+                "Cafeteria": "Available",
+                "PatronHousing": "Not available",
+                "DistributionCenter": "Nearby"
+            },
+            "Telephone": "801-240-2640"
+        },
+
+        {
+            "TempleName": "Rexburg Idaho Temple",
+            "TempleAddress": {
+                "City": "Rexburg",
+                "State": "ID",
+                "Country": "US",
+                "Street": "750 S 2nd E"
+            },
+            "Services": {
+                "ClothingRental": "Available",
+                "Cafeteria": "Not available",
+                "PatronHousing": "Not available",
+                "DistributionCenter": "Nearby"
+            },
+            "Telephone": "208-656-0880"
+        }
+    ]
+}
